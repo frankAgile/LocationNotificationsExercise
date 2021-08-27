@@ -9,13 +9,22 @@
 /* Begin PBXBuildFile section */
 		EDC2751126D825C300FCC78E /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = EDC2751026D825C300FCC78E /* AppDelegate.swift */; };
 		EDC2751326D825C300FCC78E /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = EDC2751226D825C300FCC78E /* SceneDelegate.swift */; };
-		EDC2751526D825C300FCC78E /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = EDC2751426D825C300FCC78E /* ViewController.swift */; };
-		EDC2751826D825C300FCC78E /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = EDC2751626D825C300FCC78E /* Main.storyboard */; };
 		EDC2751B26D825C300FCC78E /* coreLocation1.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = EDC2751926D825C300FCC78E /* coreLocation1.xcdatamodeld */; };
 		EDC2751D26D825C300FCC78E /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = EDC2751C26D825C300FCC78E /* Assets.xcassets */; };
 		EDC2752026D825C300FCC78E /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = EDC2751E26D825C300FCC78E /* LaunchScreen.storyboard */; };
 		EDC2752B26D825C400FCC78E /* coreLocation1Tests.swift in Sources */ = {isa = PBXBuildFile; fileRef = EDC2752A26D825C400FCC78E /* coreLocation1Tests.swift */; };
 		EDC2753626D825C400FCC78E /* coreLocation1UITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = EDC2753526D825C400FCC78E /* coreLocation1UITests.swift */; };
+		EDC2754626D8306900FCC78E /* LocationManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = EDC2754526D8306900FCC78E /* LocationManager.swift */; };
+		EDC2754A26D8368400FCC78E /* MenuItem.swift in Sources */ = {isa = PBXBuildFile; fileRef = EDC2754926D8368400FCC78E /* MenuItem.swift */; };
+		EDC2754E26D8380900FCC78E /* MenuListViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = EDC2754C26D8380900FCC78E /* MenuListViewController.swift */; };
+		EDC2754F26D8380900FCC78E /* MenuListViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = EDC2754D26D8380900FCC78E /* MenuListViewController.xib */; };
+		EDC2755526D83BCC00FCC78E /* LocationViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = EDC2755326D83BCC00FCC78E /* LocationViewController.swift */; };
+		EDC2755626D83BCC00FCC78E /* LocationViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = EDC2755426D83BCC00FCC78E /* LocationViewController.xib */; };
+		EDCA7BE726D8820D006A73B4 /* MenuTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = EDCA7BE526D8820D006A73B4 /* MenuTableViewCell.swift */; };
+		EDCA7BE826D8820D006A73B4 /* MenuTableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = EDCA7BE626D8820D006A73B4 /* MenuTableViewCell.xib */; };
+		EDCA7BEC26D8961B006A73B4 /* SelectedItemViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = EDCA7BEA26D8961B006A73B4 /* SelectedItemViewController.swift */; };
+		EDCA7BED26D8961B006A73B4 /* SelectedItemViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = EDCA7BEB26D8961B006A73B4 /* SelectedItemViewController.xib */; };
+		EDCA7BEF26D89CF0006A73B4 /* SelectedItemViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = EDCA7BEE26D89CF0006A73B4 /* SelectedItemViewModel.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -39,8 +48,6 @@
 		EDC2750D26D825C200FCC78E /* coreLocation1.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = coreLocation1.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		EDC2751026D825C300FCC78E /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		EDC2751226D825C300FCC78E /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
-		EDC2751426D825C300FCC78E /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
-		EDC2751726D825C300FCC78E /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		EDC2751A26D825C300FCC78E /* coreLocation1.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = coreLocation1.xcdatamodel; sourceTree = "<group>"; };
 		EDC2751C26D825C300FCC78E /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		EDC2751F26D825C300FCC78E /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
@@ -51,6 +58,17 @@
 		EDC2753126D825C400FCC78E /* coreLocation1UITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = coreLocation1UITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		EDC2753526D825C400FCC78E /* coreLocation1UITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = coreLocation1UITests.swift; sourceTree = "<group>"; };
 		EDC2753726D825C400FCC78E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		EDC2754526D8306900FCC78E /* LocationManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LocationManager.swift; sourceTree = "<group>"; };
+		EDC2754926D8368400FCC78E /* MenuItem.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MenuItem.swift; sourceTree = "<group>"; };
+		EDC2754C26D8380900FCC78E /* MenuListViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MenuListViewController.swift; sourceTree = "<group>"; };
+		EDC2754D26D8380900FCC78E /* MenuListViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = MenuListViewController.xib; sourceTree = "<group>"; };
+		EDC2755326D83BCC00FCC78E /* LocationViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LocationViewController.swift; sourceTree = "<group>"; };
+		EDC2755426D83BCC00FCC78E /* LocationViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = LocationViewController.xib; sourceTree = "<group>"; };
+		EDCA7BE526D8820D006A73B4 /* MenuTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MenuTableViewCell.swift; sourceTree = "<group>"; };
+		EDCA7BE626D8820D006A73B4 /* MenuTableViewCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = MenuTableViewCell.xib; sourceTree = "<group>"; };
+		EDCA7BEA26D8961B006A73B4 /* SelectedItemViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SelectedItemViewController.swift; sourceTree = "<group>"; };
+		EDCA7BEB26D8961B006A73B4 /* SelectedItemViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = SelectedItemViewController.xib; sourceTree = "<group>"; };
+		EDCA7BEE26D89CF0006A73B4 /* SelectedItemViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SelectedItemViewModel.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -101,14 +119,15 @@
 		EDC2750F26D825C200FCC78E /* coreLocation1 */ = {
 			isa = PBXGroup;
 			children = (
+				EDC2754326D8262B00FCC78E /* Modules */,
 				EDC2751026D825C300FCC78E /* AppDelegate.swift */,
 				EDC2751226D825C300FCC78E /* SceneDelegate.swift */,
-				EDC2751426D825C300FCC78E /* ViewController.swift */,
-				EDC2751626D825C300FCC78E /* Main.storyboard */,
 				EDC2751C26D825C300FCC78E /* Assets.xcassets */,
 				EDC2751E26D825C300FCC78E /* LaunchScreen.storyboard */,
 				EDC2752126D825C300FCC78E /* Info.plist */,
 				EDC2751926D825C300FCC78E /* coreLocation1.xcdatamodeld */,
+				EDC2754426D82FBF00FCC78E /* Models */,
+				EDC2754726D8348E00FCC78E /* CustomElements */,
 			);
 			path = coreLocation1;
 			sourceTree = "<group>";
@@ -129,6 +148,78 @@
 				EDC2753726D825C400FCC78E /* Info.plist */,
 			);
 			path = coreLocation1UITests;
+			sourceTree = "<group>";
+		};
+		EDC2754326D8262B00FCC78E /* Modules */ = {
+			isa = PBXGroup;
+			children = (
+				EDCA7BE926D895E6006A73B4 /* SelectedItem */,
+				EDC2755226D83B5F00FCC78E /* Location */,
+				EDC2754B26D837B800FCC78E /* MenuList */,
+			);
+			path = Modules;
+			sourceTree = "<group>";
+		};
+		EDC2754426D82FBF00FCC78E /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				EDC2754526D8306900FCC78E /* LocationManager.swift */,
+				EDC2754926D8368400FCC78E /* MenuItem.swift */,
+			);
+			path = Models;
+			sourceTree = "<group>";
+		};
+		EDC2754726D8348E00FCC78E /* CustomElements */ = {
+			isa = PBXGroup;
+			children = (
+				EDC2754826D834AA00FCC78E /* TableViewCells */,
+			);
+			path = CustomElements;
+			sourceTree = "<group>";
+		};
+		EDC2754826D834AA00FCC78E /* TableViewCells */ = {
+			isa = PBXGroup;
+			children = (
+				EDCA7BE426D881D4006A73B4 /* MenuCell */,
+			);
+			path = TableViewCells;
+			sourceTree = "<group>";
+		};
+		EDC2754B26D837B800FCC78E /* MenuList */ = {
+			isa = PBXGroup;
+			children = (
+				EDC2754C26D8380900FCC78E /* MenuListViewController.swift */,
+				EDC2754D26D8380900FCC78E /* MenuListViewController.xib */,
+			);
+			path = MenuList;
+			sourceTree = "<group>";
+		};
+		EDC2755226D83B5F00FCC78E /* Location */ = {
+			isa = PBXGroup;
+			children = (
+				EDC2755326D83BCC00FCC78E /* LocationViewController.swift */,
+				EDC2755426D83BCC00FCC78E /* LocationViewController.xib */,
+			);
+			path = Location;
+			sourceTree = "<group>";
+		};
+		EDCA7BE426D881D4006A73B4 /* MenuCell */ = {
+			isa = PBXGroup;
+			children = (
+				EDCA7BE526D8820D006A73B4 /* MenuTableViewCell.swift */,
+				EDCA7BE626D8820D006A73B4 /* MenuTableViewCell.xib */,
+			);
+			path = MenuCell;
+			sourceTree = "<group>";
+		};
+		EDCA7BE926D895E6006A73B4 /* SelectedItem */ = {
+			isa = PBXGroup;
+			children = (
+				EDCA7BEA26D8961B006A73B4 /* SelectedItemViewController.swift */,
+				EDCA7BEB26D8961B006A73B4 /* SelectedItemViewController.xib */,
+				EDCA7BEE26D89CF0006A73B4 /* SelectedItemViewModel.swift */,
+			);
+			path = SelectedItem;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -236,7 +327,10 @@
 			files = (
 				EDC2752026D825C300FCC78E /* LaunchScreen.storyboard in Resources */,
 				EDC2751D26D825C300FCC78E /* Assets.xcassets in Resources */,
-				EDC2751826D825C300FCC78E /* Main.storyboard in Resources */,
+				EDC2754F26D8380900FCC78E /* MenuListViewController.xib in Resources */,
+				EDCA7BE826D8820D006A73B4 /* MenuTableViewCell.xib in Resources */,
+				EDCA7BED26D8961B006A73B4 /* SelectedItemViewController.xib in Resources */,
+				EDC2755626D83BCC00FCC78E /* LocationViewController.xib in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -261,10 +355,16 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				EDC2751526D825C300FCC78E /* ViewController.swift in Sources */,
+				EDC2754E26D8380900FCC78E /* MenuListViewController.swift in Sources */,
 				EDC2751B26D825C300FCC78E /* coreLocation1.xcdatamodeld in Sources */,
+				EDC2754626D8306900FCC78E /* LocationManager.swift in Sources */,
+				EDC2754A26D8368400FCC78E /* MenuItem.swift in Sources */,
 				EDC2751126D825C300FCC78E /* AppDelegate.swift in Sources */,
+				EDCA7BE726D8820D006A73B4 /* MenuTableViewCell.swift in Sources */,
 				EDC2751326D825C300FCC78E /* SceneDelegate.swift in Sources */,
+				EDCA7BEF26D89CF0006A73B4 /* SelectedItemViewModel.swift in Sources */,
+				EDCA7BEC26D8961B006A73B4 /* SelectedItemViewController.swift in Sources */,
+				EDC2755526D83BCC00FCC78E /* LocationViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -300,14 +400,6 @@
 /* End PBXTargetDependency section */
 
 /* Begin PBXVariantGroup section */
-		EDC2751626D825C300FCC78E /* Main.storyboard */ = {
-			isa = PBXVariantGroup;
-			children = (
-				EDC2751726D825C300FCC78E /* Base */,
-			);
-			name = Main.storyboard;
-			sourceTree = "<group>";
-		};
 		EDC2751E26D825C300FCC78E /* LaunchScreen.storyboard */ = {
 			isa = PBXVariantGroup;
 			children = (
