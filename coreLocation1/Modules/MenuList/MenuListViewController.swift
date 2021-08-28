@@ -10,7 +10,7 @@ import UIKit
 class MenuListViewController: UIViewController {
     
     @IBOutlet weak var tableView: UITableView!
- 
+    
     override func viewDidLoad() {
         super.viewDidLoad()
         self.navigationItem.title = "Swifty TakeOut"
@@ -48,6 +48,5 @@ extension MenuListViewController: UITableViewDelegate, UITableViewDataSource {
     func tableView(_ tableView: UITableView, heightForRowAt indexPath: IndexPath) -> CGFloat {
         return 60
     }
-    
     
 }

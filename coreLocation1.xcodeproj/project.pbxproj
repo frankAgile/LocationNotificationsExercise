@@ -18,13 +18,10 @@
 		EDC2754A26D8368400FCC78E /* MenuItem.swift in Sources */ = {isa = PBXBuildFile; fileRef = EDC2754926D8368400FCC78E /* MenuItem.swift */; };
 		EDC2754E26D8380900FCC78E /* MenuListViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = EDC2754C26D8380900FCC78E /* MenuListViewController.swift */; };
 		EDC2754F26D8380900FCC78E /* MenuListViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = EDC2754D26D8380900FCC78E /* MenuListViewController.xib */; };
-		EDC2755526D83BCC00FCC78E /* LocationViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = EDC2755326D83BCC00FCC78E /* LocationViewController.swift */; };
-		EDC2755626D83BCC00FCC78E /* LocationViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = EDC2755426D83BCC00FCC78E /* LocationViewController.xib */; };
 		EDCA7BE726D8820D006A73B4 /* MenuTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = EDCA7BE526D8820D006A73B4 /* MenuTableViewCell.swift */; };
 		EDCA7BE826D8820D006A73B4 /* MenuTableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = EDCA7BE626D8820D006A73B4 /* MenuTableViewCell.xib */; };
 		EDCA7BEC26D8961B006A73B4 /* SelectedItemViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = EDCA7BEA26D8961B006A73B4 /* SelectedItemViewController.swift */; };
 		EDCA7BED26D8961B006A73B4 /* SelectedItemViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = EDCA7BEB26D8961B006A73B4 /* SelectedItemViewController.xib */; };
-		EDCA7BEF26D89CF0006A73B4 /* SelectedItemViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = EDCA7BEE26D89CF0006A73B4 /* SelectedItemViewModel.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -62,13 +59,10 @@
 		EDC2754926D8368400FCC78E /* MenuItem.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MenuItem.swift; sourceTree = "<group>"; };
 		EDC2754C26D8380900FCC78E /* MenuListViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MenuListViewController.swift; sourceTree = "<group>"; };
 		EDC2754D26D8380900FCC78E /* MenuListViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = MenuListViewController.xib; sourceTree = "<group>"; };
-		EDC2755326D83BCC00FCC78E /* LocationViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LocationViewController.swift; sourceTree = "<group>"; };
-		EDC2755426D83BCC00FCC78E /* LocationViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = LocationViewController.xib; sourceTree = "<group>"; };
 		EDCA7BE526D8820D006A73B4 /* MenuTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MenuTableViewCell.swift; sourceTree = "<group>"; };
 		EDCA7BE626D8820D006A73B4 /* MenuTableViewCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = MenuTableViewCell.xib; sourceTree = "<group>"; };
 		EDCA7BEA26D8961B006A73B4 /* SelectedItemViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SelectedItemViewController.swift; sourceTree = "<group>"; };
 		EDCA7BEB26D8961B006A73B4 /* SelectedItemViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = SelectedItemViewController.xib; sourceTree = "<group>"; };
-		EDCA7BEE26D89CF0006A73B4 /* SelectedItemViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SelectedItemViewModel.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -154,7 +148,6 @@
 			isa = PBXGroup;
 			children = (
 				EDCA7BE926D895E6006A73B4 /* SelectedItem */,
-				EDC2755226D83B5F00FCC78E /* Location */,
 				EDC2754B26D837B800FCC78E /* MenuList */,
 			);
 			path = Modules;
@@ -194,15 +187,6 @@
 			path = MenuList;
 			sourceTree = "<group>";
 		};
-		EDC2755226D83B5F00FCC78E /* Location */ = {
-			isa = PBXGroup;
-			children = (
-				EDC2755326D83BCC00FCC78E /* LocationViewController.swift */,
-				EDC2755426D83BCC00FCC78E /* LocationViewController.xib */,
-			);
-			path = Location;
-			sourceTree = "<group>";
-		};
 		EDCA7BE426D881D4006A73B4 /* MenuCell */ = {
 			isa = PBXGroup;
 			children = (
@@ -217,7 +201,6 @@
 			children = (
 				EDCA7BEA26D8961B006A73B4 /* SelectedItemViewController.swift */,
 				EDCA7BEB26D8961B006A73B4 /* SelectedItemViewController.xib */,
-				EDCA7BEE26D89CF0006A73B4 /* SelectedItemViewModel.swift */,
 			);
 			path = SelectedItem;
 			sourceTree = "<group>";
@@ -330,7 +313,6 @@
 				EDC2754F26D8380900FCC78E /* MenuListViewController.xib in Resources */,
 				EDCA7BE826D8820D006A73B4 /* MenuTableViewCell.xib in Resources */,
 				EDCA7BED26D8961B006A73B4 /* SelectedItemViewController.xib in Resources */,
-				EDC2755626D83BCC00FCC78E /* LocationViewController.xib in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -362,9 +344,7 @@
 				EDC2751126D825C300FCC78E /* AppDelegate.swift in Sources */,
 				EDCA7BE726D8820D006A73B4 /* MenuTableViewCell.swift in Sources */,
 				EDC2751326D825C300FCC78E /* SceneDelegate.swift in Sources */,
-				EDCA7BEF26D89CF0006A73B4 /* SelectedItemViewModel.swift in Sources */,
 				EDCA7BEC26D8961B006A73B4 /* SelectedItemViewController.swift in Sources */,
-				EDC2755526D83BCC00FCC78E /* LocationViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -533,6 +513,7 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = KSKXB8G235;
 				INFOPLIST_FILE = coreLocation1/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
@@ -551,6 +532,7 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = KSKXB8G235;
 				INFOPLIST_FILE = coreLocation1/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
